@@ -127,13 +127,14 @@ const Header = () => {
                                                 duration={500}
                                                 spy={true}
                                                 offset={section.scrollToOffset}
-                                                className={`text-lg font-semibold text-black cursor-pointer`}
+                                                className={`text-lg font-semibold text-white cursor-pointer`}
                                             >
                                                 {section.displayName}
                                             </Link>
                                         </SheetClose>
                                     ))}
                                 </div>
+                                <Button onClick={() => window.open("https://book.squareup.com/appointments/v2jf4gqxpigym7/location/LYFN8NM0H2R11/services")} className='!text-gray-100 w-[90%]'>BOOK NOW <Scissors /></Button>
                             </SheetHeader>
                         </SheetContent>
                     </Sheet>
@@ -143,6 +144,7 @@ const Header = () => {
                         src={Logo}
                         alt="banner logo"
                         className="border rounded-full h-[10vw]"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     />
                 </div>
                 <div className='w-[30%] flex justify-end items-center gap-2'>
