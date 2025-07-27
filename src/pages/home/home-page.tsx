@@ -25,6 +25,7 @@ const HomePage = () => {
             <Element name="contact">
                 <ContactSection />
             </Element>
+            <div className="h-[5rem]" />
         </div>
     )
 }

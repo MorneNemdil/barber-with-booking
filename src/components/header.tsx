@@ -25,7 +25,7 @@ const Header = () => {
         { name: 'hero', displayName: "Home", scrollToOffset: 0, headerScrollDetectionOffset: 100 },
         { name: 'about', displayName: "About Us", scrollToOffset: -100, headerScrollDetectionOffset: 100 },
         { name: 'services', displayName: "Our Services", scrollToOffset: -190, headerScrollDetectionOffset: 200 },
-        { name: 'contact', displayName: "Contact Us", scrollToOffset: -65, headerScrollDetectionOffset: 100 },
+        { name: 'contact', displayName: "Contact Us", scrollToOffset: -95, headerScrollDetectionOffset: 100 },
     ];
 
     useEffect(() => {
