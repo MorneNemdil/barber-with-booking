@@ -12,7 +12,7 @@ const HomePage = () => {
     useEffect(() => setTheme('dark'), []);
 
     return (
-        <div className="flex flex-col h-[400rem]">
+        <div className="flex flex-col">
             <Element name="home">
                 <HeroSection />
             </Element>
